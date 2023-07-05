@@ -1,20 +1,4 @@
-/*
 
-   ____  __  __  ____  _  _  _____       ___  _____  ____  _  _ 
-  (  _ \(  )(  )(_  _)( \( )(  _  )___  / __)(  _  )(_  _)( \( )
-   )(_) ))(__)(  _)(_  )  (  )(_)((___)( (__  )(_)(  _)(_  )  ( 
-  (____/(______)(____)(_)\_)(_____)     \___)(_____)(____)(_)\_)
-  Official code for Arduino boards (and relatives)   version 3.4
-  
-  Duino-Coin Team & Community 2019-2022 © MIT Licensed
-  https://duinocoin.com
-  https://github.com/revoxhere/duino-coin
-  If you don't know where to start, visit official website and navigate to
-  the Getting Started page. Have fun mining!
-*/
-
-/* For microcontrollers with low memory change that to -Os in all files,
-for default settings use -O0. -O may be a good tradeoff between both */
 #pragma GCC optimize ("-Ofast")
 /* For microcontrollers with custom LED pins, adjust the line below */
 #ifndef LED_BUILTIN
